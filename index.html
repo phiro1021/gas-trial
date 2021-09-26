@@ -16,9 +16,19 @@
     </style>
   </head>
   <body>
-    <div class="container">
+    <div id="container">
       <iframe src="https://script.google.com/macros/s/AKfycbwr8o3hDOild3a5T2b_JyyecKpoS3VqFNrcuOap2eSAYZKWVmCGLrtFtExr0Xbt16DDBw/exec" width="100%" height="100%">
       </iframe>
     </div>
   </body>
+  <scipt>
+    const container = document.getElementById('container');
+    window.onresize = refreshView;
+    window.onload = refreshView;
+    const refreshView = () => {
+      container.style.width = window.innerWidth + "px";
+      container.style.height = window.innerHeight + "px";
+    }
+    
+  </script>
 </html>
