@@ -5,4 +5,4 @@
 [MIT](https://github.com/phiro1021/public2/blob/main/LICENSE)
 
 ## Author
-[Phiro1021(Yoshihiro.Tohgishi)](https://github.com/Phiro1021)
+[Phiro1021](https://github.com/Phiro1021)
